@@ -1,0 +1,7 @@
+.page {
+  position: relative;
+  min-width: 320px;
+  max-width: 1440px;
+  color: #001337;
+  margin: 0 auto;
+}

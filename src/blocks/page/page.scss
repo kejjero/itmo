@@ -1,0 +1,10 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
+.page {
+	position: relative;
+	min-width: 320px;
+	max-width: 1440px;
+	color: $c_blue;
+	margin: 0 auto;
+}

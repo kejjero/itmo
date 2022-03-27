@@ -1,0 +1,38 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
+.test {
+  @include flex-center;
+  margin: 0 auto;
+  max-width: 1100px;
+  background-color: $c_emerald;
+  min-height: 600px;
+  
+  .test__contain {
+      @include flex-center;
+
+      .test__list {
+          box-sizing: border-box;
+          min-height: 500px;
+          min-width: 700px;
+          @include reset-list;
+          @include flex-row-between;
+          background-color: $c_blue;
+          padding: 40px;
+          
+          .test__card {
+              @include rest;
+              @include flex-center;
+              width: 200px;
+              min-height: 100px;
+              background-color: $c_light-blue;
+              cursor: pointer;
+
+              &:hover {
+                  background-color: $c_emerald;
+                  color: $c_white;
+              }
+          }
+      }
+  }
+}
