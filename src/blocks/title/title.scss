@@ -1,0 +1,16 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
+.title {
+    @include rest;
+    @include font-title;
+    margin: 80px auto 30px auto;
+}
+
+.title_type_black {
+    color: $c_dark-blue;
+}
+
+.title_type_white {
+    color: $c_white;
+}

@@ -13,18 +13,84 @@
     <div class="page">
         <header class="header"></header>
         <main class="content">
-            <!-- как работает scss -->
-            <section class="test">
-                <div class="test__contain">
-                    <ul class="test__list">
-                        <li class="test__card">Анализ данных</li>
-                        <li class="test__card">Инфраструктура данных</li>
-                        <li class="test__card">Облачные вычисления</li>
+            <section class="intro"></section>
+            <!-- laboratory -->
+            <section class="laboratory">
+                <div class="laboratory__contain">
+                    <h2 class="title title_type_black">Industrial ai research lab</h2>
+                    <div class="laboratory__foreword-wrapper">
+                        <div class="laboratory__paragraphs">
+                            <p class="laboratory__paragraph">
+                                Центр национальной технологической инициативы (НТИ), получивший государственную поддержку 
+                                по направлению «Технологии машинного обучения 
+                                и когнитивные технологии».</p>
+                            <p class="laboratory__paragraph">
+                                Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими клиентами, новые решения находят, не задумываясь. Работая таким образом 
+                                и проявляя гибкость, мы можем поддерживать новый подход для удовлетворения потребностей наших клиентов.
+                            </p>
+                            <img class="laboratory__mini-icon" width="24" height="22.7" src="./images/laboratory/laboratory__mini-icon.svg" alt="символ машинное обучение" class="">
+                        </div>
+                        <div class="laboratory__images-wrapper">
+                            <img class="laboratory__image" width="264" height="276" src="./images/laboratory/laboratory__image1.png" alt="Специалист">
+                            <img class="laboratory__image" width="264" height="276" src="./images/laboratory/laboratory__image2.png" alt="Специалисты">
+                        </div>
+                    </div>
+                    <ul class="laboratory__cards">
+                        <li class="laboratory__card">
+                            <img class="laboratory__card-background" width="255" height="430"  src="./images/laboratory/laboratory__background.jpg" alt="Цифры">
+                            <div class="laboratory__card-overlay">
+                                <div class="laboratory__card-wrapper">
+                                    <h3 class="laboratory__card-title">Анализ социальных данных</h3>
+                                    <div class="laboratory__card-circle">
+                                        <img class="laboratory__card-icon" src="./images/laboratory/laboratory__icon.svg" alt="Анализ данных">
+                                    </div>
+                                    <p class="laboratory__card-paragraph">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                                <button class="laboratory__card-button" type="button">Подробнее</button>
+                                </div>
+                            </div>
+                            <li class="laboratory__card">
+                                <img class="laboratory__card-background" width="255" height="430" src="./images/laboratory/laboratory__background2.jpg" alt="Цифры">
+                                <div class="laboratory__card-overlay">
+                                    <div class="laboratory__card-wrapper">
+                                        <h3 class="laboratory__card-title">Инфраструктура больших данных</h3>
+                                        <div class="laboratory__card-circle">
+                                            <img class="laboratory__card-icon" src="./images/laboratory/laboratory__icon2.svg" alt="Анализ данных">
+                                        </div>
+                                        <p class="laboratory__card-paragraph">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                                    <button class="laboratory__card-button" type="button">Подробнее</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="laboratory__card">
+                                <img class="laboratory__card-background" width="255" height="430"  src="./images/laboratory/laboratory__background3.jpg" alt="Цифры">
+                                <div class="laboratory__card-overlay">
+                                    <div class="laboratory__card-wrapper">
+                                        <h3 class="laboratory__card-title">Облачные вычисления</h3>
+                                        <div class="laboratory__card-circle">
+                                            <img class="laboratory__card-icon" src="./images/laboratory/laboratory__icon3.svg" alt="Анализ данных">
+                                        </div>
+                                        <p class="laboratory__card-paragraph">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                                    <button class="laboratory__card-button" type="button">Подробнее</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="laboratory__card">
+                                <img class="laboratory__card-background" width="255" height="430" src="./images/laboratory/laboratory__background4.jpg" alt="Цифры">
+                                <div class="laboratory__card-overlay">
+                                    <div class="laboratory__card-wrapper">
+                                        <h3 class="laboratory__card-title">QA системы</h3>
+                                        <div class="laboratory__card-circle">
+                                            <img class="laboratory__card-icon" src="./images/laboratory/laboratory__icon4.svg" alt="Анализ данных">
+                                        </div>
+                                        <p class="laboratory__card-paragraph">Направление включает в себя исследования и разработки технологий МО и КТ</p>
+                                    <button class="laboratory__card-button" type="button">Подробнее</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </li>
                     </ul>
                 </div>
             </section>
-            <section class="intro"></section>
-            <section class="laboratory"></section>
             <section class="projects"></section>
             <section class="education"></section>
             <section class="publications"></section>
@@ -34,6 +100,24 @@
         </main>
         <footer class="footer"></footer>
     </div>
+    <template id="popup-element">
+        <div class="popup">
+            <div class="popup__container">
+                <div class="popup__close-button"></div>
+                <img class="popup__image" width="200" height="368" src="./images/popup/popup__image.jpg" alt="Разработчики">
+                <h2 class="popup__title">Анализ социальных данных</h2>
+                <div class="popup__text-wrapper">
+                    <p class="popup__text"> Текст текст текст</p>
+                </div>
+            </div>
+            <div class="popup__overlay"></div>
+        </div>
+    </template>
+    
     <script type="text/javascript" src="./pages/index.js"></script>
 </body>
 </html>
+
+<!-- Problems 
+      - Создать миксины для одинаковой анимации всех элементов на странице
+-->

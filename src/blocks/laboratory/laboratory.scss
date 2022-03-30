@@ -1,2 +1,157 @@
 @import '../../scss/mixins.scss';
 @import '../../scss/variables.scss';
+
+.laboratory {
+    @include flex-center;
+
+    .laboratory__contain {
+        @include flex-column-center;
+        max-width: 1110px;
+    }
+
+    .laboratory__foreword-wrapper {
+        @include flex-row-between;
+
+        .laboratory__paragraphs {
+            max-width: 540px;
+            position: relative;
+            margin-right: 20px;
+
+            .laboratory__paragraph {
+                @include rest;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                letter-spacing: 0.1px;
+                color: $c_dark-blue;
+
+                &:nth-last-child(2){
+                    margin-top: 20px;
+                    line-height: 26px;
+                    font-weight: 300;
+                }
+            }
+            .laboratory__mini-icon {
+                cursor: pointer;
+                position:absolute;
+                left: -40px;
+                top: 142px;
+            }
+        
+        }
+        
+        .laboratory__images-wrapper {
+            .laboratory__image {
+                border-radius: 10px;
+
+                &:nth-last-child(2){
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    // Оверлей карточек немного отредактировал, так смотрится интересней. 
+    // Остается добавить белое размытие по краям над самим оверлеем
+
+    .laboratory__cards{
+        width: 100%;
+        @include reset-list;
+        @include flex-row-between;
+        margin: 80px auto;
+        flex-wrap: wrap;
+
+        .laboratory__card {
+            width: 255px;
+            height: 430px;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+            transition: transform .3s ease-in-out;
+    
+            &:hover {
+                transform: translateY(-20px);
+            }
+            .laboratory__card-background {
+                position: absolute;
+                border-radius: 10px;
+                background-color: $c_white;
+                opacity: 0.3;
+            }
+
+            &:hover .laboratory__card-overlay {
+                position: absolute;
+                background: $c_emerald;
+            }
+
+            &:hover .laboratory__card-title{
+                color: $c_white;
+            }
+
+            &:hover .laboratory__card-paragraph{
+                color: $c_white;
+            }
+
+            &:hover .laboratory__card-button {
+                border-color: $c_white;
+                color: $c_white;
+            }
+
+            .laboratory__card-overlay {
+                border-radius: 10px;
+                width: 255px;
+                height: 430px;
+                background: linear-gradient(180deg, $c_white rgba(255, 255, 255, 0) 100%);
+                transition: background-color .3s ease-in-out;
+                cursor: pointer;
+
+                .laboratory__card-wrapper {
+                    box-sizing: border-box;
+                    height: 100%;
+                    @include flex-column-between;
+                    position: relative;
+                    padding: 20px 30px;
+
+                    .laboratory__card-title {
+                        margin: 0;
+                        text-align: center;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 30px;
+                        transition: color .1s ease-in-out;
+                    }
+
+                    .laboratory__card-circle {
+                        border-radius: 50%;
+                        background-color: $c_white;
+                        width: 70px;
+                        height: 70px;
+                        box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+                        @include flex-center;
+                    }    
+
+                .laboratory__card-paragraph {
+                    @include rest;
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.1px;
+                    transition: color .1s ease-in-out;
+                }
+
+                .laboratory__card-button {
+                    cursor: pointer;
+                    background: transparent;
+                    border-radius: 10px;
+                    border: 1px solid;
+                    width: 215px;
+                    height: 40px;
+                    transition: color .1s ease-in-out;
+                }
+                }
+            }
+        
+        }
+    }
+}
