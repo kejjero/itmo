@@ -3,7 +3,7 @@
 
 .publications {
     @include flex-column-center;
-    color: $c_emerald;
+    background-color: $c_light-blue;
     &__title {
         @include rest;
         margin-top: 80px;
@@ -15,5 +15,10 @@
     &__container {
         @include rest;
         margin-top: 30px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px 33px;
     }
 }
