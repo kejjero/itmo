@@ -1,2 +1,19 @@
 @import '../../scss/mixins.scss';
 @import '../../scss/variables.scss';
+
+.publications {
+    @include flex-column-center;
+    color: $c_emerald;
+    &__title {
+        @include rest;
+        margin-top: 80px;
+        color: $c_blue;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 68px;
+    }
+    &__container {
+        @include rest;
+        margin-top: 30px;
+    }
+}
