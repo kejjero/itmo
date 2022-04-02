@@ -3,4 +3,103 @@
 
 .education {
   background-color: #009FAC;
+  @include flex-column-center;
+  padding: 80px 0;
+
+  &__title {
+    padding: 0;
+    margin: 0 auto 30px;
+    font-size: 36px;
+    line-height: 68px;
+    color: white;
+  }
+
+  &__description {
+    @include regular-font;
+    width: 920px;
+    color: white;
+    padding: 0;
+    margin: 0 auto 60px;
+  }
+
+  &__main-container {
+    background-color: white;
+    @include flex-row-around;
+    margin: 0 auto 35px;
+    padding: 0;
+    border-radius: 10px;
+    width: 1170px;
+    height: 430px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+    height: 370px;
+  }
+
+  &__info-title {
+    @include rest;
+    @include bold-font;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    @include reset-list;
+    margin-bottom: 30px;
+  }
+
+  &__programm {
+    @include regular-font;
+    line-height: 25px;
+    margin: 0 0 5px 0;
+    padding: 0;
+  }
+
+  &__photo {
+    width: 445px;
+    height: 364px;
+    object-fit: contain;
+  }
+
+  &__more {
+    text-decoration: none;
+    @include bold-font;
+    width: 30%;
+    transition: opacity .3s ease-in;
+  }
+
+  &__more:hover {
+    @include default-hover;
+  }
+
+  &__buttons {
+    @include flex-row-between
+  }
+
+  &__button {
+    width: 280px;
+    height: 70px;
+    border-radius: 10px;
+    @include regular-font;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    @include rest;
+    transition: opacity .3s ease-in;
+  }
+
+  &__button:last-of-type {
+    margin-left: -10px;
+  }
+
+  &__button:hover {
+    @include default-hover;
+  }
+
+  &__button_active {
+    color: black;
+    background-color: #E0F0FF;
+  }
 }
