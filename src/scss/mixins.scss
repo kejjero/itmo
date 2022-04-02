@@ -38,3 +38,10 @@
     align-items: center;
     justify-content: flex-start;
 }
+
+@mixin regular-font {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}
