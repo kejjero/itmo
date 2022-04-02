@@ -18,6 +18,7 @@
 @import url(../blocks/publications/publications.css);
 /* team */
 @import url(../blocks/team/team.css);
+@import url(../blocks/team-card/team-card.css);
 /* partners */
 @import url(../blocks/partners/partners.css);
 /* contacts */

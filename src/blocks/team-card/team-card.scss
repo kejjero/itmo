@@ -1,0 +1,38 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
+
+.team-card {
+    @include reset-list;
+    @include flex-column-left;
+    width: 255px;
+    height: 439px;
+    background-color: $c_white;
+    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    border-radius: 10px;
+    &__image {
+        width: 215px;
+        height: 286px;
+        object-fit: cover;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    &__name {
+        @include rest;
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        color: $c_dark-blue;
+        text-align: center;
+    }
+    &__position {
+        @include rest;
+        margin-top: 4px;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: $c_emerald;
+    }
+}
