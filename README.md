@@ -1,4 +1,5 @@
 ## 🚀 Лендинг для лаборатории ИТМО 
+
 ![Лендинг](https://sun9-30.userapi.com/impg/ABRReviA_hndB4-fd79-heWPIaln3kOA_90P6Q/1nkQk72AO7s.jpg?size=1480x666&quality=96&sign=6638076dfa8f10c00ffbe967136e31c1&type=album)
 
 ## О проекте: 
@@ -21,3 +22,4 @@
 ![HTML](https://img.shields.io/badge/-HTML-0d1117?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/-CSS-0d1117?style=for-the-badge&logo=css3)
 ![SASS](https://img.shields.io/badge/-SASS-0d1117?style=for-the-badge&logo=sass)
+
