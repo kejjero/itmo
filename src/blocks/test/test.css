@@ -13,6 +13,7 @@
   background-color: #009FAC;
   min-height: 600px;
 }
+
 .test .test__contain {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,6 +25,7 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 .test .test__contain .test__list {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -44,6 +46,7 @@
   background-color: #001337;
   padding: 40px;
 }
+
 .test .test__contain .test__list .test__card {
   margin: 0;
   padding: 0;
@@ -61,7 +64,9 @@
   background-color: #E0F0FF;
   cursor: pointer;
 }
+
 .test .test__contain .test__list .test__card:hover {
   background-color: #009FAC;
   color: #ffffff;
 }
+/*# sourceMappingURL=test.css.map */
