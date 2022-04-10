@@ -4,6 +4,8 @@
 @import url(../blocks/page/page.css);
 /* content */
 @import url(../blocks/content/content.css);
+/* title */
+@import url(../blocks/title/title.css);
 /* header */
 @import url(../blocks/header/header.css);
 /* intro */
@@ -16,6 +18,7 @@
 @import url(../blocks/education/education.css);
 /* publications */
 @import url(../blocks/publications/publications.css);
+@import url(../blocks/publication/publication.css);
 /* team */
 @import url(../blocks/team/team.css);
 @import url(../blocks/team-card/team-card.css);
@@ -25,7 +28,5 @@
 @import url(../blocks/contacts/contacts.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
-
-
-/* test */
-@import url(../blocks/test/test.css);
+/* popup */
+@import url(../blocks/popup/popup.css);
