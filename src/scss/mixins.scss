@@ -40,6 +40,18 @@
     justify-content: space-between;
 }
 
+@mixin flex-column-between-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @mixin flex-column-center {
     display: flex;
