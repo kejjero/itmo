@@ -157,3 +157,11 @@
       justify-self: end;
   grid-area: media;
 }
+.footer .footer__wrapper .footer__phone {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.footer .footer__wrapper .footer__phone:hover {
+  opacity: 0.7;
+}

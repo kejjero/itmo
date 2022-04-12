@@ -115,7 +115,7 @@
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.1px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .intro .intro__wrapper-about-us .intro__cards {
   margin: 0;
@@ -168,6 +168,7 @@
   line-height: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #009FAC;
+  text-transform: uppercase;
 }
 .intro .intro__wrapper-about-us .intro__cards .card .card__paragraph {
   margin: 0;
