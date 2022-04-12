@@ -11,7 +11,20 @@
 </head>
 <body class="root">
     <div class="page">
-        <header class="header"></header>
+        <header class="header">
+            <img src="./images/Logo_AI 1.png" alt="Логотип" class="header__logo">
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <li class="header__list-item"><a class="header__link" href="#" target="_blank">О нас</a></li>
+                    <li class="header__list-item"><a class="header__link" href="#" target="_blank">Лаборатория</a></li>
+                    <li class="header__list-item"><a class="header__link" href="#" target="_blank">Проекты</a></li>
+                    <li class="header__list-item"><a class="header__link" href="#" target="_blank">Образование</a></li>
+                    <li class="header__list-item"><a class="header__link" href="#" target="_blank">Публикации</a></li>
+                    <li class="header__list-item"><a class="header__link" href="#" target="_blank">Команда</a></li>
+                    <li class="header__list-item"><a class="header__link" href="#" target="_blank">Связаться</a></li>
+                </ul>
+            </nav>
+        </header>
         <main class="content">
             <!-- intro -->
             <section class="intro">
@@ -238,7 +251,22 @@
             </section>
             <section class="team"></section>
             <section class="partners"></section>
-            <section class="contacts"></section>
+            <section class="contacts">
+                <h2 class="contacts__title">Всегда на связи</h2>
+                <p class="contacts__subtitle">
+                    По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставить свое сообщение через форму обратной связи. 
+                </p>
+                <form class="contacts__form" action="">
+                   <div class="contacts__container">
+                    <input class="contacts__input contacts__input_difference_height contacts__input_type_name" type="text" placeholder="Имя">
+                    <input class="contacts__input contacts__input_difference_height contacts__input_type_surname" type="text" placeholder="Фамилия">
+                    <input class="contacts__input contacts__input_type_message" type="text" placeholder="Сообщение">
+                    <input class="contacts__input contacts__input_difference_height contacts__input_type_tel" type="tel" placeholder="Телефон">
+                    <input class="contacts__input contacts__input_difference_height contacts__input_type_email" type="email" placeholder="E-mail">
+                   </div>
+                    <button type="submit" class="contacts__button">Отправить</button>
+                </form>
+            </section>
         </main>
         <footer class="footer">
             <div class="footer__wrapper">
