@@ -1,2 +1,15 @@
 @import '../../scss/mixins.scss';
 @import '../../scss/variables.scss';
+
+.publications {
+    @include flex-column-center;
+    background-color: $c_light-blue;
+    &__list {
+        @include rest;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px 33px;
+    }
+}

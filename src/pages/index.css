@@ -1,9 +1,17 @@
+/* normalize.css */
+@import url('../vendor/normalize.css');
+/*fonts */
+@import url('../fonts/fonts.css');
 /* root */
 @import url(../blocks/root/root.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* content */
 @import url(../blocks/content/content.css);
+/* logo */
+@import url(../blocks/logo/logo.css);
+/* title */
+@import url(../blocks/title/title.css);
 /* header */
 @import url(../blocks/header/header.css);
 /* intro */
@@ -16,15 +24,18 @@
 @import url(../blocks/education/education.css);
 /* publications */
 @import url(../blocks/publications/publications.css);
+@import url(../blocks/publication/publication.css);
 /* team */
 @import url(../blocks/team/team.css);
+@import url(../blocks/team-card/team-card.css);
 /* partners */
 @import url(../blocks/partners/partners.css);
 /* contacts */
 @import url(../blocks/contacts/contacts.css);
+/* map */
+@import url(../blocks/map/map.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
+/* popup */
+@import url(../blocks/popup/popup.css);
 
-
-/* test */
-@import url(../blocks/test/test.css);

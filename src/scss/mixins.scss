@@ -11,6 +11,15 @@
     list-style: none;
 }
 
+
+// fonts
+@mixin font-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    letter-spacing: 0.1px;
+}
+
 // flexbox
 @mixin flex-center {
     display: flex;
@@ -24,6 +33,25 @@
     justify-content: space-between;
 }
 
+@mixin flex-column-between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-column-between-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @mixin flex-column-center {
     display: flex;
@@ -37,4 +65,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+}
+
+@mixin regular-font {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}
+
+@mixin bold-font {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000D26;
+}
+
+@mixin default-hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+@mixin flex-row-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }

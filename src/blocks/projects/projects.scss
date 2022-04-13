@@ -1,2 +1,91 @@
 @import '../../scss/mixins.scss';
 @import '../../scss/variables.scss';
+
+.projects {
+  background-color: $c_blue;
+  margin: auto;
+  color: $c_white;
+  .projects__container {
+    @include flex-column;
+    max-width: 1110px;
+    margin: auto;
+
+    .projects__nav {
+      width: 100%;
+      @include flex-row-between;
+      .projects__nav_item {
+        @include rest;
+        width: 25%;
+        padding: 9px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 5px $c_blue solid;
+        color: $c_white;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:active {
+          border-bottom: 5px $c_emerald solid;
+        }
+      }
+    }
+    .projects__list {
+      @include reset-list;
+      margin: 60px auto 122px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(254px, 1fr));
+      gap: 29px;
+      .projects__card {
+        @include rest;
+        position: relative;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: $c_emerald;
+        color: $c_white;
+        &:hover {
+          background-color: $c_light-blue;
+          color: $c_blue;
+          .projects__card_logo {
+            background-image: url("../../images/projects/gazprom-logo-blue.svg");
+          }
+          .projects__card_link {
+            color: $c_blue;
+          }
+        }
+        .projects__card_logo {
+          background-image: url("../../images/projects/gazprom-logo.svg");
+          width: 112px;
+          height: 48px;
+        }
+        .projects__card_text {
+          @include rest;
+          margin: 20px 0;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.1px;
+        }
+        .projects__card_link {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 19px;
+          color: $c_white;
+        }
+        .projects__back {
+          background-image: url("../../images/projects/projects__background.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+          position: absolute;
+          left: 0;
+          top: 60px;
+          width: 100%;
+          height: 100%;
+          mix-blend-mode: multiply;
+        }
+      }
+    }
+  }
+}

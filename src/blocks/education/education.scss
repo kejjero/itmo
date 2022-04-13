@@ -1,2 +1,109 @@
 @import '../../scss/mixins.scss';
 @import '../../scss/variables.scss';
+
+.education {
+  background-color: $c_emerald;
+  @include flex-column-center;
+  padding-bottom: 80px;
+
+  &__title {
+    padding: 0;
+    margin: 0 auto 30px;
+    font-size: 36px;
+    line-height: 68px;
+    color: $c_white;
+  }
+
+  &__description {
+    @include regular-font;
+    width: 920px;
+    color: $c_white;
+    padding: 0;
+    margin: 0 auto 60px;
+  }
+
+  &__main-container {
+    background-color: $c_white;
+    @include flex-row-around;
+    margin: 0 auto 35px;
+    padding: 0;
+    border-radius: 10px;
+    width: 1170px;
+    height: 430px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    width: 635px;
+    height: 370px;
+  }
+
+  &__info-title {
+    @include rest;
+    @include bold-font;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    @include reset-list;
+    margin-bottom: 30px;
+  }
+
+  &__programm {
+    @include regular-font;
+    line-height: 25px;
+    margin: 0 0 5px 0;
+    padding: 0;
+  }
+
+  &__photo {
+    width: 445px;
+    height: 364px;
+    object-fit: contain;
+  }
+
+  &__more {
+    text-decoration: none;
+    @include bold-font;
+    width: 30%;
+    transition: opacity .3s ease-in;
+  }
+
+  &__more:hover {
+    @include default-hover;
+  }
+
+  &__buttons {
+    @include flex-row-between;
+    border: 1px solid $c_white;
+    border-radius: 10px;
+    width: 540px;
+  }
+
+  &__button {
+    width: 270px;
+    height: 60px;
+    border-radius: 10px;
+    @include regular-font;
+    color: $c_white;
+    border: none;
+    background-color: transparent;
+    @include rest;
+    transition: opacity .3s ease-in;
+    text-transform: uppercase;
+  }
+
+  &__button:last-of-type {
+    margin-left: -10px;
+  }
+
+  &__button:hover {
+    @include default-hover;
+  }
+
+  &__button_active {
+    color: black;
+    background-color: #E0F0FF;
+  }
+}

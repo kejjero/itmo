@@ -1,2 +1,115 @@
-@import '../../scss/mixins.scss';
-@import '../../scss/variables.scss';
+@import "../../scss/mixins.scss";
+@import "../../scss/variables.scss";
+
+$Emerald: #009fac;
+
+.contacts {
+  background-color: $Emerald;
+  color: #fff;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-family: $f_main-font;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  &__subtitle {
+    font-family: $f_main-font;
+    margin: 37px 0 60px;
+    width: 919px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__container {
+    display: grid;
+    width: 1113px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "name surname message"
+      "tel email message";
+    gap: 29px 20px;
+  }
+  &__input {
+    width: 352px;
+    border-radius: 10px;
+    border: none;
+    padding: 19px 23px 19px 20px;
+    box-sizing: border-box;
+  }
+  &__input::placeholder {
+    font-family: $f_main-font;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: $Emerald;
+  }
+  &__input:focus {
+    outline: none;
+  }
+  &__input_type_name {
+    grid-area: name;
+  }
+  &__input_type_surname {
+    grid-area: surname;
+  }
+  &__input_type_tel {
+    grid-area: tel;
+  }
+  &__input_type_email {
+    grid-area: email;
+  }
+  &__input_type_message {
+    grid-area: message;
+    align-self: stretch;
+  }
+  &__input_type_message::placeholder{
+      position: absolute;
+      top: 20px;
+      left: 20px;
+  }
+  &__input_difference_height {
+    height: 60px;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $f_main-font;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    width: 350px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: transparent;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-top: 37px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  &__button:hover{
+    border: 1px solid #000D26;
+    color: #000D26;
+  }
+}

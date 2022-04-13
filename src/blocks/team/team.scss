@@ -1,2 +1,16 @@
 @import '../../scss/mixins.scss';
 @import '../../scss/variables.scss';
+
+.team {
+    @include flex-column-center;
+        background: linear-gradient(to bottom, $c_light-blue 60%, $c_blue 30%);
+    
+    &__container {
+        @include rest;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
