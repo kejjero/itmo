@@ -12,156 +12,136 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100px;
-}
-.footer .footer__wrapper {
-  width: 1110px;
-  margin: 80px 0;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-      grid-template-areas: "logo logo logo logo" "university main development contacts" "description main development contacts" "authors authors none none";
-  -ms-grid-columns: 270px 90px 90px 206px;
-  grid-template-columns: 270px 90px 90px 206px;
-  -ms-grid-rows: 100px 30px 240px 20px;
-  grid-template-rows: 100px 30px 240px 20px;
-}
-.footer .footer__wrapper .footer_type_text {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  color: #ffffff;
-  margin-bottom: 8px;
-}
-.footer .footer__wrapper .footer_type_liks {
-  text-decoration: none;
-  margin-bottom: 8px;
-}
-.footer .footer__wrapper .footer_type_liks:hover {
-  opacity: 0.7;
-}
-.footer .footer__wrapper .footer__authors {
-  opacity: 0.5;
-}
-.footer .footer__wrapper .footer__title {
-  font-weight: 600px;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 19px;
-  color: #ffffff;
-  margin-bottom: 12px;
-}
-.footer .footer__wrapper .footer__description {
-  margin-top: 30px;
-}
-.footer .footer__wrapper .footer__city {
-  margin: 0;
-  padding: 0;
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 12px;
-}
-.footer .footer__wrapper .footer__contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.footer .footer__wrapper .footer__logo {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: logo;
-}
-.footer .footer__wrapper .footer__university {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: university;
-}
-.footer .footer__wrapper .footer__main {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  grid-area: main;
-}
-.footer .footer__wrapper .footer__development {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 3;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  grid-area: development;
-}
-.footer .footer__wrapper .footer__icon {
-  margin-right: 5px;
-}
-.footer .footer__wrapper .footer__contacts {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 4;
-  grid-area: contacts;
-}
-.footer .footer__wrapper .footer__authors {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  margin-top: 38px;
-  grid-area: authors;
-}
-.footer .footer__wrapper .footer__media {
-  margin-top: 66px;
-  -ms-grid-column-align: end;
-      justify-self: end;
-  grid-area: media;
-}
-.footer .footer__wrapper .footer__phone {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-}
-.footer .footer__wrapper .footer__phone:hover {
-  opacity: 0.7;
-}
+  min-height: 100px; }
+  .footer .footer__wrapper {
+    width: 1110px;
+    margin: 80px 0;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        grid-template-areas: "logo logo logo logo" "university main development contacts" "description main development contacts" "authors authors none none";
+    -ms-grid-columns: 270px 90px 90px 206px;
+        grid-template-columns: 270px 90px 90px 206px;
+    -ms-grid-rows: 100px 30px 240px 20px;
+        grid-template-rows: 100px 30px 240px 20px; }
+    .footer .footer__wrapper .footer_type_text {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #ffffff;
+      margin-bottom: 8px; }
+    .footer .footer__wrapper .footer_type_liks {
+      text-decoration: none;
+      margin-bottom: 8px; }
+      .footer .footer__wrapper .footer_type_liks:hover {
+        opacity: 0.7; }
+    .footer .footer__wrapper .footer__authors {
+      opacity: 0.5; }
+    .footer .footer__wrapper .footer__title {
+      font-weight: 600px;
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      line-height: 19px;
+      color: #ffffff;
+      margin-bottom: 12px; }
+    .footer .footer__wrapper .footer__description {
+      margin-top: 30px; }
+    .footer .footer__wrapper .footer__city {
+      margin: 0;
+      padding: 0;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 12px; }
+    .footer .footer__wrapper .footer__contacts {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+    .footer .footer__wrapper .footer__logo {
+      -ms-grid-row: 1;
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 4;
+      grid-area: logo; }
+    .footer .footer__wrapper .footer__university {
+      -ms-grid-row: 2;
+      -ms-grid-column: 1;
+      grid-area: university; }
+    .footer .footer__wrapper .footer__main {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 2;
+      -ms-grid-column: 2;
+      grid-area: main; }
+    .footer .footer__wrapper .footer__development {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 2;
+      -ms-grid-column: 3;
+      grid-area: development; }
+    .footer .footer__wrapper .footer__icon {
+      margin-right: 5px; }
+    .footer .footer__wrapper .footer__contacts {
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 2;
+      -ms-grid-column: 4;
+      grid-area: contacts; }
+    .footer .footer__wrapper .footer__authors {
+      margin-top: 38px;
+      -ms-grid-row: 4;
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 2;
+      grid-area: authors; }
+    .footer .footer__wrapper .footer__media {
+      margin-top: 66px;
+      -ms-grid-column-align: end;
+          justify-self: end;
+      grid-area: media; }
+    .footer .footer__wrapper .footer__phone {
+      display: block;
+      color: #fff;
+      text-decoration: none; }
+      .footer .footer__wrapper .footer__phone:hover {
+        opacity: 0.7; }

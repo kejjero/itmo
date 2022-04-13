@@ -13,16 +13,14 @@
       -ms-flex-pack: center;
           justify-content: center;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E0F0FF), color-stop(50%, #001337));
-  background: linear-gradient(to bottom, #E0F0FF 50%, #001337 50%);
-}
-.team__container {
-  margin: 0;
-  padding: 0;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-}
+  background: linear-gradient(to bottom, #E0F0FF 50%, #001337 50%); }
+  .team__container {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    gap: 30px; }
