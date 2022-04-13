@@ -1,6 +1,6 @@
 .header {
   max-width: 1440px;
-  background-color: #000d26;
+  background-color: #000D26;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,12 +9,10 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
 .header__logo {
   width: 150px;
   height: 54px;
 }
-
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,7 +21,6 @@
   padding: 0;
   margin: 0 0 0 135px;
 }
-
 .header__list-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,15 +40,12 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .header__list-item:last-of-type {
   margin-right: 0;
 }
-
 .header__list-item:hover {
   border-bottom: 2px solid #009FAC;
 }
-
 .header__link {
   font-family: "Open Sans", sans-serif;
   color: #fff;

@@ -1,10 +1,9 @@
-@import "../../scss/mixins.scss";
-@import "../../scss/variables.scss";
+@import '../../scss/mixins.scss';
+@import '../../scss/variables.scss';
 
-$darkBlue: #000d26;
 .header {
   max-width: 1440px;
-  background-color: $darkBlue;
+  background-color: $c_dark-blue;
   display: flex;
   padding: 13px 165px;
   align-items: center;

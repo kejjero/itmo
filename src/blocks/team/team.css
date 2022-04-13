@@ -15,17 +15,6 @@
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E0F0FF), color-stop(50%, #001337));
   background: linear-gradient(to bottom, #E0F0FF 50%, #001337 50%);
 }
-.team__title {
-  margin: 0;
-  padding: 0;
-  margin-top: 50px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 68px;
-  letter-spacing: 0.1px;
-  color: #000D26;
-}
 .team__container {
   margin: 0;
   padding: 0;

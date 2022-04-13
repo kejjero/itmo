@@ -11,8 +11,9 @@
 </head>
 <body class="root">
     <div class="page">
+        <!-- header -->
         <header class="header">
-            <img src="./images/Logo_AI 1.png" alt="Логотип" class="header__logo">
+            <img src="./images/header/header__logo.png" alt="Логотип" class="header__logo">
             <nav class="header__menu">
                 <ul class="header__list">
                     <li class="header__list-item"><a class="header__link" href="#" target="_blank">О нас</a></li>
@@ -35,7 +36,9 @@
                         <button class="intro__button" type="button">наши проекты</button>
                     </div>
                 </div>
-                <div class="intro__img-background"></div>
+                <div class="intro__img-wrapper">
+                    <img class="intro__img-background" src="./images/intro/intro__img-backgorund.jpg" alt="">
+                </div>
                 <div class="intro__wrapper-about-us">
                     <h2 class="title">Несколько слов о нас</h2>
                     <p class="intro__paragraph-about-us">Национальный центр когнитивных разработок – центр национальной
@@ -153,7 +156,7 @@
             <section class="projects"></section>
             <section class="education"></section>
             <section class="publications">
-                <h2 class="title">ПУБЛИКАЦИИ</h2>
+                <h2 class="title">Публикации</h2>
                 <ul class="publications__list">
                     <li class="publication">
                         <article class="publication__container">
@@ -250,7 +253,7 @@
                 </ul>
             </section>
             <section class="team">
-                <h2 class="team__title">НАША КОМАНДА</h2>
+                <h2 class="title">НАША КОМАНДА</h2>
                 <ul class="team__container">
                     <li class="team-card">
                         <img src="./images/team/team-card-1.jpg" alt="Бобцов Алексей Алексеевич" class="team-card__image">
@@ -280,7 +283,7 @@
             </section>
             <section class="partners"></section>
             <section class="contacts">
-                <h2 class="contacts__title">Всегда на связи</h2>
+                <h2 class="title">Всегда на связи</h2>
                 <p class="contacts__subtitle">
                     По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставить свое сообщение через форму обратной связи. 
                 </p>
@@ -378,7 +381,3 @@
     <script type="text/javascript" src="./pages/index.js"></script>
 </body>
 </html>
-
-<!-- Problems 
-      - Создать миксины для одинаковой анимации всех элементов на странице
--->
