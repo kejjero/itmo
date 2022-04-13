@@ -66,3 +66,28 @@
     align-items: center;
     justify-content: flex-start;
 }
+
+@mixin regular-font {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}
+
+@mixin bold-font {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000D26;
+}
+
+@mixin default-hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+@mixin flex-row-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -13,7 +13,9 @@
     <div class="page">
         <!-- header -->
         <header class="header">
-            <img src="./images/header/header__logo.png" alt="Логотип" class="header__logo">
+            <a class="header__logo-link" href="#" >
+                <div class="logo"></div>
+            </a>
             <nav class="header__menu">
                 <ul class="header__list">
                     <li class="header__list-item"><a class="header__link" href="#" target="_blank">О нас</a></li>
@@ -27,7 +29,6 @@
             </nav>
         </header>
         <main class="content">
-            <!-- intro -->
             <section class="intro">
                 <div class="intro__wrapper">
                     <div class="intro__wrapper-title">
@@ -37,7 +38,7 @@
                     </div>
                 </div>
                 <div class="intro__img-wrapper">
-                    <img class="intro__img-background" src="./images/intro/intro__img-backgorund.jpg" alt="">
+                    <div class="intro__img-background"></div>
                 </div>
                 <div class="intro__wrapper-about-us">
                     <h2 class="title">Несколько слов о нас</h2>
@@ -75,9 +76,7 @@
                             </article>
                         </div>
                     </div>
-                 </div>
             </section>
-            <!-- laboratory -->
             <section class="laboratory">
                 <div class="laboratory__contain">
                     <h2 class="title title_type_black">Industrial ai research lab</h2>
@@ -150,11 +149,38 @@
                                     </div>
                                 </div>
                             </li>
-                        </li>
                     </ul>
+                </div>
             </section>
             <section class="projects"></section>
-            <section class="education"></section>
+            <section class="education">
+                <h2 class="title title_type_white">Образование</h2>
+                <p class="education__description">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО
+                     инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН»,
+                      НовГУ), а также профильную компанию ООО «НЦЭО» в области электронного и дистанционного образования. Реализуются
+                       образовательные программы различных форматов.</p>
+                <div class="education__main-container">
+                    <div class="education__info">
+                      <h3 class="education__info-title">Образовательные программы аспирантуры в области МО и КТ</h3>
+                      <ul class="education__list">
+                        <li class="education__programm">• Прикладные технологии искусственного интеллекта</li>
+                        <li class="education__programm">• Машинное обучение и искусственный интеллект</li>
+                        <li class="education__programm">• Биометрические информационные системы</li>
+                        <li class="education__programm">• Речевые информационные системы</li>
+                        <li class="education__programm">• Когнитивные вычисления и квантовый интеллект</li>
+                        <li class="education__programm">• Большие данные и экстренные вычисления</li>
+                        <li class="education__programm">• Семантические системы и инженерия знаний</li>
+                        <li class="education__programm">• Технологии разработки компьютерных игр</li>
+                      </ul>
+                      <a href="#" class="education__more">Подробнее &rarr;</a>
+                    </div>
+                    <img class="education__photo" src="./images/education/education__photo.png" alt="Выпускники">
+                </div>
+                <div class="education__buttons">
+                  <button class="education__button" type="button">Аспирантура</button>
+                  <button class="education__button education__button_active" type="button">Магистратура</button>
+                </div>
+            </section>
             <section class="publications">
                 <h2 class="title">Публикации</h2>
                 <ul class="publications__list">
@@ -281,7 +307,70 @@
                     </li>
                 </ul>
             </section>
-            <section class="partners"></section>
+            <section class="partners">
+                <div class="partners__text-wrapper">
+                    <h2 class="title title_type_white">с кем мы работаем</h2>
+                    <p class="partners__paragraph">За время сотрудничества компания показала себя как надежный партнер,
+                        способный оперативно решать вопросы по внесению необходимых изменений.
+                    </p>
+                    <p class="partners__paragraph">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на
+                        помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению
+                        деятельности. Надеемся на дальнейшее и плодотворное сотрудничество.
+                    </p>
+                </div>
+                <ul class="partners__image-container">
+                   <li class="partners__img-company">
+                       <a class="partners__img-link" href="#">
+                           <img class="partners__image" src="./images/partners/partners__gazprom.svg" alt="Газпром">
+                       </a>
+                   </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__sberbank.svg" alt="Сбербанк">
+                        </a>
+                    </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__mailru.svg" alt="Мейл.ру">
+                        </a>
+                    </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__siemens.svg" alt="Сименс">
+                        </a>
+                    </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__huawei.svg" alt="Хуавей">
+                        </a>
+                    </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__sberbank.svg" alt="Сбербанк">
+                        </a>
+                    </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__rosveft.svg" alt="Роснефть">
+                        </a>
+                    </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__gazprom.svg" alt="Газпром">
+                        </a>
+                    </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__huawei.svg" alt="Хуавей">
+                        </a>
+                    </li>
+                    <li class="partners__img-company">
+                        <a class="partners__img-link" href="#">
+                            <img class="partners__image" src="./images/partners/partners__mailru.svg" alt="Мейл.ру">
+                        </a>
+                    </li>
+                </ul>
+            </section>
             <section class="contacts">
                 <h2 class="title">Всегда на связи</h2>
                 <p class="contacts__subtitle">
@@ -298,10 +387,16 @@
                     <button type="submit" class="contacts__button">Отправить</button>
                 </form>
             </section>
+            <section class="map">
+
+                <!-- здесь будет Яндекс Карта  -->
+            </section>
         </main>
         <footer class="footer">
             <div class="footer__wrapper">
-                <img class="footer__logo" src="./images/footer/footer__logo.svg" alt="Логотип" width="150" height="54">
+                <a class="footer__logo-link" href="#" >
+                    <div class="logo"></div>
+                </a>
                 <p class="footer__university footer_type_text">Информация &copy; 2020 Университет ИТМО</p>
                 <p class="footer__description footer_type_text">Национальный центр когнитивных разработок –
                     центр национальной технологической инициативы (НТИ),
@@ -351,13 +446,13 @@
                             <img class="footer__icon" src="./images/footer/footer__icon-facebook.svg" alt="фейсбук">
                         </a>
                         <a class="footer__media-link footer_type_liks" href="#">
-                            <img class="footer__icon" src="./images/footer/footer__icon-facebook.svg" alt="фейсбук">
+                            <img class="footer__icon" src="./images/footer/footer__telegram.svg" alt="телеграм">
                         </a>
                         <a class="footer__media-link footer_type_liks" href="#">
                             <img class="footer__icon" src="./images/footer/footer__icon-instagram.svg" alt="инстаграм">
                         </a>
                         <a class="footer__media-link footer_type_liks" href="#">
-                            <img class="footer__icon" src="./images/footer/footer__icon-instagram.svg" alt="инстаграм">
+                            <img class="footer__icon" src="./images/footer/footer__youtube.svg" alt="ютюб">
                         </a>
                         <!-- иконки телеги и ютюба битые -->
                     </div>

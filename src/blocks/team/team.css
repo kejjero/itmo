@@ -12,8 +12,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #E0F0FF), color-stop(50%, #001337));
-  background: linear-gradient(to bottom, #E0F0FF 50%, #001337 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #E0F0FF), color-stop(30%, #001337));
+  background: linear-gradient(to bottom, #E0F0FF 60%, #001337 30%);
 }
 .team__container {
   margin: 0;

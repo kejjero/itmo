@@ -3,7 +3,7 @@
 
 .team {
     @include flex-column-center;
-    background: linear-gradient(to bottom, $c_light-blue 50%, $c_blue 50%);
+        background: linear-gradient(to bottom, $c_light-blue 60%, $c_blue 30%);
     
     &__container {
         @include rest;

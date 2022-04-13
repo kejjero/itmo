@@ -46,7 +46,7 @@
     }
 
     .footer__title {
-      font-weight: 600px;
+      font-weight: 600;
       @include rest;
       font-size: 14px;
       line-height: 19px;
@@ -71,7 +71,7 @@
       @include flex-column-between-left;
     }
 
-    .footer__logo {
+    .footer__logo-link {
       grid-area: logo;
     }
     .footer__university {
