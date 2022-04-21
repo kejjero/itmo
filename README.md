@@ -13,7 +13,6 @@
 
 ## Команда проекта:
 + Петерс Максим <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
-+ Павел Завезёнов <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
 + Никифоров Никита <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
 + Плавских Петр <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
 + Виктор Пекин <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
