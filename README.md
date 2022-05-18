@@ -1,41 +1,70 @@
-# 🚀 Проект: «ИТМО»
+# Getting Started with Create React App
 
-![Лендинг](https://sun9-30.userapi.com/impg/ABRReviA_hndB4-fd79-heWPIaln3kOA_90P6Q/1nkQk72AO7s.jpg?size=1480x666&quality=96&sign=6638076dfa8f10c00ffbe967136e31c1&type=album)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Лаборатория входит в состав Национального центра когнитивных разработок и специализируется на выполнении разных промышленных задач на основе больших данных. Лендинг ориентирован на будущих студентов и его основная задача — привлечь новых студентов в магистратуру / аспирантуру.
+## Available Scripts
 
-### <img src="https://cdn-icons-png.flaticon.com/512/7135/7135133.png" width="25" />[ Ссылка на проект](https://kejjero.github.io/itmo/)
+In the project directory, you can run:
 
-### <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" width="25" />[ Макет проекта](https://kejjero.github.io/itmo/)
+### `npm start`
 
-## Функциональность
-Одностраничный лендинг ориентирован на будущих студентов для ознакомления с Университетом ИТМО. 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Команда проекта:
-+ Петерс Максим <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
-+ Никифоров Никита <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
-+ Плавских Петр <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
-+ Виктор Пекин <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
-+ Олег Дмитриев <img width="28" src="https://www.userlogos.org/files/icn_github2.png"/>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-## Стек:
-![Javascript](https://img.shields.io/badge/-Javascript-0d1117?style=for-the-badge&logo=Javascript)
-![ReactJS](https://img.shields.io/badge/-ReactJS-0d1117?style=for-the-badge&logo=React)
-![Webpack](https://img.shields.io/badge/-Webpack-0d1117?style=for-the-badge&logo=Webpack)
-![HTML](https://img.shields.io/badge/-HTML-0d1117?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/-CSS-0d1117?style=for-the-badge&logo=css3)
-![SASS](https://img.shields.io/badge/-SASS-0d1117?style=for-the-badge&logo=sass)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Инструкция для работы с проектом:
-```
-git clone git@github.com:kejjero/itmo.git
-cd itmo
-npm i webpack --save-dev
-npm run build
-npm run dev
-```
-## Задеплоить проект в Github Pages
-```
-npm run deploy
-```
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
